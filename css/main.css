@@ -1,0 +1,211 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video,div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: inline-block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+div, ul,ol,li{
+  list-style:none;
+  display:inline-block;
+}
+a{
+  text-decoration:none;
+}
+p,ul{
+ padding:0;
+  margin:0;
+}
+/*********
+END OF SETUP
+**********/
+
+
+
+/**
+* jungle sky  #3090F0 48,144,240
+* sailor #003078 0,48,129
+* storm petrel #001848 0,24,72
+* nightsky #000030 0,0,48
+*/
+
+html,body{
+  width:100%;
+  height:100%;
+  font-family: 'Play',Helvetica,sans-serif;
+  background-color: #003399;
+}
+ /*background-image: linear-gradient(to bottom right,#003399,#3366ff,#c0c0c0);*/
+#home{
+  margin-top: 50px;
+}
+.spacing{
+  padding: 10px;
+}
+
+hr{
+  width:100%;
+  margin:0;
+  padding:0;
+  border:0;
+  height:4px;
+  background-image: -webkit-linear-gradient(left, rgba(255,91,0,.8), rgba(255,100,0,0.33),rgba(255,91,0,.8));
+  position:absolute;
+}
+
+.navlogo{
+ padding-right: 15px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+}
+
+#navbar-name{
+  font-size: 24px;
+  color: #ff5b00;
+  padding-top: 20px;
+}
+
+#email{
+  font-size: 20px;
+  padding-left: 200px;
+  padding-top: 20px;
+  color: #ff5b00;
+}
+
+.nav{
+   padding-top: 5px;
+}
+.navbar-default .navbar-nav>li>a{
+  color: #ff5b00;
+}
+
+#myNav>ul>li>a:hover{
+  border: 1px solid blue;
+  color:blue;
+}
+
+#homeimg{
+  margin-top: 100px;
+  margin-left: 250px;
+  margin-right: 100px;
+}
+
+#btn-contact{
+  margin-top: 20px;
+  margin-left: 100px;
+  background-color: white;
+  border: 2px solid rgba(255,91,0,1);
+  width:150px;
+  height:50px;
+  color: rgba(255,91,0,1);
+}
+
+.img-lg{
+  width: 350px;
+  height: 350px;
+}
+.myname > p{
+  font-size: 100px;
+  color: white;
+  font-family: 'Vollkorn', Helvetica, sans-serif;
+}
+#homeimg,#homename{
+  display: inline-block;
+}
+#homename{
+  width:600px;
+  margin:0;
+  vertical-align: top;
+}
+
+.name{
+  margin-top: 20px;
+}
+.fname{
+  margin-bottom: 10px;
+}
+.social{
+  width:350px;
+  height: 50px;
+  vertical-align: top;
+  margin-top: 100px;
+  margin-left: 100px;
+  color:white;
+}
+
+#aboutme{
+  background-color: #001860; /*navy babe*/
+  margin-top: 250px;
+  padding-bottom: 25px;
+  width: 100%;
+}
+
+.row{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.plan{
+  margin-left: 15px;
+}
+
+.quote{
+  border-left: 2px solid white;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  color:white;
+  line-height: 1.3;
+  font-size: 20px;
+  font-family: 'Play', Helvetica, sans-serif;
+}
+
+#myplan{
+  padding-top: 15px;
+  color:white;
+  width: 350px;
+  font-size: 16px;
+  font-family: 'Vollkorn', Helvetica, sans-serif;
+}
