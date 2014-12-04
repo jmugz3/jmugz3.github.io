@@ -11,8 +11,14 @@
   <title>Jose Miguel.</title>
   
   <!-- Favicon -->
-  <link rel="shortcut icon" href="favicon.ico"/>
-  <!-- <link rel="apple-touch-icon" type="text/css" href=""> -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico">
+  <!--
+  <link rel="apple-touch-icon" href="touch-icon-iphone.png" /> 
+  <link rel="apple-touch-icon" sizes="76x76" href="touch-icon-ipad.png" /> 
+  <link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png" />
+  -->
 
   <!--Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Montez' rel='stylesheet' type='text/css'>
@@ -32,7 +38,9 @@
 </head>
 
 <body>
-<header>
+
+  <!-- DO I NEED THE HEADER?  why not just nav-->
+<header> 
   <nav class="navbar navbar-default navbar-fixed-top hidden" role="navigation">
       <div class="container" id="topNav">
           <!-- Brand and toggle get grouped for better mobile display -->
@@ -56,21 +64,22 @@
       <hr>
   </nav>
 </header>
-<div id="home">
+
+<section id="home">
   <div id="homeimg">
     <img src="http://placehold.it/350x350" class="img-responsive img-lg" alt="Picture of Jose">
-    <button class="btn btn-lg" id="btn-contact">Contact Me</button>
+    <button class="btn btn-all" id="btn-contact">Contact Me</button>
   </div> <!-- end of homeimg -->
 
   <div id="homename">
     <div class="social">
       <ul>
-        <li><i class="fa fa-facebook fa-2x spacing"></i></li>
-        <li><i class="fa fa-twitter fa-2x spacing"></i></li>
-        <li><i class="fa fa-linkedin fa-2x spacing"></i></li>
-        <li><i class="fa fa-github fa-2x spacing"></i></li>
-        <li><i class="fa fa-codepen fa-2x spacing"></i></li>
-        <li></li>
+        <li><a href="https://www.facebook.com/jose.mugaburu" target="_blank"><i class="fa fa-facebook fa-2x spacing"></i></a></li>
+        <li><a href="http://twitter.com/jmugz3" target="_blank"><i class="fa fa-twitter fa-2x spacing"></i></a></li>
+        <li><a href="http://www.linkedin.com/in/josemugaburu/" target="_blank"><i class="fa fa-linkedin fa-2x spacing"></i></a></li>
+        <li><a href="http://github.com/mugab686" target="_blank"><i class="fa fa-github fa-2x spacing"></i></a></li>
+        <li><a href="http://codepen.io/jmugz3/" target="_blank"><i class="fa fa-codepen fa-2x spacing"></i></a></li>
+        <li><a href="http://www.youtube.com/" target="_blank"><i class="fa fa-youtube fa-2x spacing"></i></a></li>
       </ul>
     </div> <!-- end of social -->
 
@@ -81,58 +90,255 @@
       </span>
     </div>
   </div> <!-- end of homename -->
-</div> <!-- end of home -->
+</section>
 
 <section id="aboutme">
   <div class="container">
     <div class="row">
-      <div class="aboutimgcontainer">
-        <img id="aboutimg" src="http://placehold.it/100x100">
-      </div>
-      <div class="plan">
-        <blockquote class="quote">This is my quote <cite> - ME</cite>  
-        </blockquote>
-        <span class="infocontainer">
-          <p id="myplan">  
-            This is my plan for the next 5 years. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rhoncus faucibus lorem, id ullamcorper nisl rhoncus vehicula. Cras laoreet sapien sagittis facilisis lacinia. Aliquam convallis pellentesque justo, sed rutrum erat accumsan in. Nunc pharetra odio dui, id consequat diam porttitor a. Duis fringilla augue a urna scelerisque porta. Aliquam a ante velit. Aenean et rutrum elit, at rhoncus ante. Sed pretium neque id ex pellentesque, at aliquam elit vehicula.
-          </p>
-        </span>
-      </div> <!--end of aboutme plan -->
+      <div class="about-left">
+        <div class="aboutimgcontainer">
+          <img id="aboutimg" src="http://placehold.it/100x100">
+        </div>
+        <div class="myquote">
+          <blockquote>This is my quote <cite> - ME</cite>  
+          </blockquote>
+        </div> <!--end of aboutme plan -->
+        <div class="plan">
+          <span class="infocontainer">
+            <p id="myplan">  
+              This is my plan for the next 5 years. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rhoncus faucibus lorem, id ullamcorper nisl rhoncus vehicula. Cras laoreet sapien sagittis facilisis lacinia. Aliquam convallis pellentesque justo, sed rutrum erat accumsan in. Nunc pharetra odio dui, id consequat diam porttitor a. Duis fringilla augue a urna scelerisque porta. Aliquam a ante velit. Aenean et rutrum elit, at rhoncus ante. Sed pretium neque id ex pellentesque, at aliquam elit vehicula.
+            </p>
+          </span>
+        </div>
+      </div> <!-- end of about-left -->
+
+      <div class="about-right">
+        <div id="myplaces">
+          <p>my fave places</p>
+          <div id="myplaces-img">
+            <img src="images/sky.jpg">
+          </div>
+        </div>
+      </div> <!-- end of about-right-->
     </div><!--end of aboutme row -->
   </div><!--end of aboutme container -->
 </section> <!-- end of aboutme -->
 
 <section id="skills">
-  <div class="container">
-    <div class="row">
-      
+  <div class="row">
+    <div class="skills-left">
+      <p>Skills</p>
+      <div id="skillsPieChart">
+        <div id="pieChart" class="spacing">
+          
+        </div>
+      </div><!--end of skillspie -->
+    </div><!--end of skills-left-->
+    <div class="skills-right">
+      <p>Resume</p>
+      <div id="resume">
+        <p>Experience</p>
+        <ul>
+          <li>Software Engineering</li>
+          <li>Software Quality Assurance</li>
+          <li>Full Stack Engineer</li>
+          <li>Web Applications</li>
+        </ul>
+        <p>Continuous learning</p>
+        <ul>
+          <li>edX</li>
+          <li>Pluralsight</li>
+          <li>Team treehouse</li>
+          <li>Codeschool</li>
+          <li>tutsplus</li>
+        </ul>
+        <p>Education</p>
+        <ul>
+          <li>M.A. Systems Engineering</li>
+          <li>B.S. Systems Engineering</li>
+          <li>B.S. Industrial Engineering</li>
+        </ul>
 
+        <div id="info">
+          <i class="fa fa-file-pdf-o fa-2x spacing"></i> <!--PDF format of my resume -->
+          <i class="fa fa-info fa-2x spacing"></i> <!--  a link to my CV maybe jmugz3.com/cv 
+          with a back button to return to my website -->
+          <a href="http://www.linkedin.com/in/josemugaburu/" target="_blank"><i class="fa fa-linkedin fa-2x spacing"></i></a>
+        </div>
+
+      </div><!--end of resume -->
+    </div> <!-- end of skills-right? -->
+
+    <div id="bars" class="spacing">
+      <img src="http://placehold.it/400x300">
     </div>
-  </div>
+    <p><button class="btn btn-all" id="btn-contact">Contact Me</button></p>
+
+
+  </div> <!-- end of row -->
 </section>
 
 <section id="quote">
-  <div class="container">
+  <div>
     <div class="row">
-        <blockquote>We are what we repeatedly do. Excellence, then, is not an act, but a habit</blockquote>
-        <span> - Aristotle</span>
+        <blockquote id="quote-text">
+          <i class="fa fa-quote-left"></i>
+          We are what we repeatedly do. Excellence, then, is not an act, but a habit
+          <i class="fa fa-quote-right fa-0.5x"></i>
+        </blockquote>
+        <span id="author"> - Aristotle </span>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio">
+  <div id="portfolio-current">
+    <p>My Portfolio</p>
+    <nav id="portfolio-list">
+      <ul>
+        <li class="spacing"> Data Structures </li>
+        <li class="spacing"> Front-End Dev </li>
+        <li class="spacing"> Back- End Dev</li>
+        <li class="spacing"> Apps</li>
+        <li class="spacing"> Latest</li>
+      </ul>
+    </nav>
+    <div class="portfolio-items" id="itemsrow1">
+      <img src="http://placehold.it/200x200">
+      <img src="http://placehold.it/200x200">
+      <img src="http://placehold.it/200x200">
+    </div>
+      <div class="portfolio-items" id="itemsrow2">
+      <img src="http://placehold.it/200x200">
+      <img src="http://placehold.it/200x200">
+      <img src="http://placehold.it/200x200">
+    </div>
+    <div id="portfolio-access">
+      <span> 
+        Find them at 
+        <i class="fa fa-github fa-2x spacing"></i> 
+        <i class="fa fa-bitbucket fa-2x spacing"></i>
+        <i class="fa fa-dropbox fa-2x spacing"></i>
+        <i class="fa fa-apple fa-2x spacing"></i>
+        <i class="fa fa-android fa-2x spacing"></i>
+      </span>
+    </div>
+  </div><!--end of portfolio-current -->
+</section>
+
+<section id="social">
+  <div id="mysocial">
+    <div id="mysocial-header">
+      <p> Lets Be Social</p>
+      <span><a href="https://www.facebook.com/jose.mugaburu" target="_blank"><i class="fa fa-facebook fa-2x spacing"></i></a></span>
+      <span><a href="http://twitter.com/jmugz3" target="_blank"><i class="fa fa-twitter fa-2x spacing"></i></a></span>
+      <button class= "spacing btn-all" id="blog"> My Blog</button>
+  
+    </div>
+    <div id="twitter" class="spacing">
+      <!-- <a class="twitter-timeline" href="https://twitter.com/jmugz3" data-widget-id="534163739717537792">Tweets by @jmugz3</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    -->
+    </div>
+
+    
+
+  </div>
+</section>
+
+<section id="contact">
+  <div id="contact-left">
+    <div id="contactform">
+      <p>CONTACT</p>
+      <form>
+        <div class="contact-input spacing" id="contact-fullname">
+          <label for="name">Full Name: </label>
+          <input class="form-control" id="name" name="name" type="text">
+        </div>
+        <div class="contact-input spacing">
+          <label for="your email">Your Email</label>
+          <input class="form-control" id="recipient" name="your email">
+        </div>
+        <div class="contact-input spacing" id="contact-email">
+          <label for="email"> Email: </label>
+          <input class="form-control" id="email" name="email" type="text">
+        </div>
+        <div class="contact-input spacing" id="contact-message">
+          <label for="your message"> Message: </label>
+          <textarea class="form-control" id="message" name="your message" type="text" rows="8"></textarea>
+        </div>
+        <div>
+          <button type="submit" class="spacing btn-all" id="btn-send"> Send <i class="fa fa-paper-plane"></i></button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div id="contact-right">
+    <div id="contact-info">
+      <span>&#x2B21;</span>
     </div>
   </div>
 </section>
 
 
-
-<!-- MY OWN QUOTES..?
-    <div id="topright" class="col-md-3"> 
-      <a href="#"><span id="tagline">Developing for the Future</span></a>
-    </div>
-    <!~~ <hr class="col-md-12"> ~~>
-  </div>
- -->
+<footer>
+  <span><i id="footericon" class="fa fa-copyright spacing"></i> Developed by Jose Mugaburu</span>
+</footer>
     
     
 
   <!--Scripts  -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/pie.js" type="text/javascript"></script>
+  <script src="plugins/jquery.easing.1.3.js"></script>
+  <script type="text/javascript">
+          $(function () {
+              var data = [
+                 {
+                     'title': 'Mobile Dev',
+                      'pct': '5',
+                      'color': '#4D4D4D'
+                  },
+                  {
+                      'title': 'Front-End',
+                      'pct': '15',
+                      'color': '#B276B2'
+                  },
+                  {
+                      'title': 'Software QA',
+                      'pct': '20',
+                      'color': '#DECF3F'
+                  },           
+                  {
+                      'title': 'Web App Dev',
+                      'pct': '18',
+                      'color': '#F15854'
+                  },
+                  {
+                      'title': 'Databases',
+                      'pct': '10',
+                      'color': '#5DA5DA'
+                  },
+                  {
+                      'title': 'Software Dev',
+                      'pct': '32',
+                      'color': '#FAA43A'
+                  }
+              ];
+
+              var pc = new PS.PieChart('pieChart', 'As of Nov 2014', data);
+          });
+/*
+4D4D4D (gray)
+5DA5DA (blue)
+FAA43A (orange)  FF6600
+60BD68 (green)
+F17CB0 (pink)
+B2912F (brown)
+B276B2 (purple)
+DECF3F (yellow)
+F15854 (red)
+*/
+      </script>
 </body>
 </html>
