@@ -325,15 +325,6 @@ input[type="submit"] { text-align: center; border-radius: 50px; background: #fff
 =============================================================================*/
 
 .team-module { width: 100%; margin: 0;}
-.nodejs{
-	background:url('images/nodejs.png') no-repeat center center;
-	-webkit-background:url('images/nodejs.png') no-repeat center center;
-	background-size:cover;
-	height:20px;
-	width:20px;
-}
-
-
 
 
 
@@ -350,11 +341,11 @@ input[type="submit"] { text-align: center; border-radius: 50px; background: #fff
   ***************************************************************************
 =============================================================================*/
 
-#header.background-image { background: url('../images/GrandCanyonMe2.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -ms-background-size: cover; -o-background-size: cover; background-size: cover;}
+#header.background-image { background: url('../images/GrandCanyonMe2_opt.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -ms-background-size: cover; -o-background-size: cover; background-size: cover;}
 
-#countdown.background-image { background: url('../images/SunsetCliffs2.JPG') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -ms-background-size: cover; -o-background-size: cover; background-size: cover;}
+#countdown.background-image { background: url('../images/SunsetCliffs2_opt.JPG') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -ms-background-size: cover; -o-background-size: cover; background-size: cover;}
 
-#get-notified.background-image { background: url('../images/SunsetCliffs3.JPG') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -ms-background-size: cover; -o-background-size: cover; background-size: cover;}
+#get-notified.background-image { background: url('../images/SunsetCliffs3_opt.JPG') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -ms-background-size: cover; -o-background-size: cover; background-size: cover;}
 
 .overlay { width: 100%; height: 100%;}
 
