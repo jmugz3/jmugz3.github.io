@@ -63,3 +63,5 @@ Thumbs.db
 # IDE and Editor generated files #
 #################################
 .idea/
+
+/node_modules
