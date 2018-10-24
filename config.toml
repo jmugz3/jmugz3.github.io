@@ -1,11 +1,11 @@
-title = "My New Hugo Site"
-baseURL = "http://example.org/"
+title = "mugabits"
+baseURL = "http://josemugaburu.com/"
 languageCode = "en-us"
-
+theme = "bleak"
 
 [params]
   # Warning Keys are case sensitives
-  Subtitle = "Your subtitle !"
+  Subtitle = "where data and cloud coexist !"
   description = "Everything is awesome !"
   cover = "/images/cover.jpg"
 
@@ -17,12 +17,12 @@ languageCode = "en-us"
   [params.author]
     firstName = "FirstName"
     lastName = "LastName"
-    gender = "(fe)?male"
+    gender = "male"
     userName = "username"
     image = "//www.gravatar.com/avatar/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.png"
     website = "http://www.foo.com"
     twitter = "xxxxxxx"
-    github = "xxxxxxx"
+    github = "https://github.com/jmugz3"
     facebook = "xxxxxxxxx"
     linkedin = "xxxxxxxxx"
     gplus = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
